@@ -28,7 +28,7 @@ public class Book {
     }
 
     public String toString() {
-        return "Автор книги: "+getName()+". Название книги: "+getBookName()+". Опубликована в: "+getPublicationYear();
+        return "Автор книги: "+authorName+". Название книги: "+bookName+". Опубликована в: "+publicationYear;
     }
 
     @Override
